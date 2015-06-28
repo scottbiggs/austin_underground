@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+	<!-- This is the name of the html files.  Each file describes
+		the data for a single Location!
+	-->
+	<string-array name="location_filenames">
+		<item>home.html</item>
+		<item>i_luv_video.html</item>
+		<item>washington.html</item>
+		<item>littlefield.html</item>
+		</string-array>
+
+
+	<!-- These arrays are used to organize the parts of
+		the location_story.xml layout.  The ith element
+		of each array should correspond with all the similarly
+		numbered elements.
+
+		A null item can be represented by simply: <item/>
+	-->
+	<string-array name="titles">
+		<item>@string/title_my_mailbox</item>
+		<item>@string/title_i_luv_video</item>
+		<item>@string/title_washington</item>
+		<item>@string/title_littlefield</item>
+		</string-array>
+
+	<string-array name="hints">
+		<item>@string/hint_my_mailbox</item>
+		<item>@string/hint_i_luv_video</item>
+		<item>@string/hint_washington</item>
+		<item>@string/hint_littlefield</item>
+		</string-array>
+
+
+	<!-- Coolness out of 5 stars. This is a float, so decimal points are ok. -->
+	<string-array name="ratings">
+		<item>1</item>
+		<item>4</item>
+		<item>5</item>
+		<item>4</item>
+		</string-array>
+
+	<string-array name="latitudes">
+		<item>30.310878</item>
+		<item>30.308067</item>
+		<item>30.284944</item>
+		<item>30.268303</item>
+		<item>30.273060</item>	<!-- wall -->
+		</string-array>
+
+	<string-array name="longitudes">
+		<item>-97.676342</item>
+		<item>-97.715466</item>
+		<item>-97.739491</item>
+		<item>-97.742882</item>
+		<item>-97.753990</item>	<!-- wall -->
+		</string-array>
+
+	<!-- These are the minimum distances until you are on-target.
+		In meters.
+	-->
+	<string-array name="distances">
+		<item>3</item>
+		<item>12</item>
+		<item>1.5</item>
+		<item>4</item>
+		</string-array>
+
+	<string-array name="addresses">
+		<item>@string/address_my_mailbox</item>
+		<item>@string/address_i_luv_video</item>
+		<item>@string/address_washington</item>
+		<item>@string/address_littlefield</item>
+		</string-array>
+
+	<string-array name="subtitles">
+		<item>@string/sub_my_mailbox</item>
+		<item>@string/sub_i_luv_video</item>
+		<item>@string/sub_washington</item>
+		<item>@string/sub_littlefield</item>
+		</string-array>
+
+	<string-array name="stories">
+		<item>@string/story_my_mailbox</item>
+		<item>@string/story_i_luv_video</item>
+		<item>@string/story_washington</item>
+		<item>@string/story_littlefield</item>
+		</string-array>
+
+
+</resources>

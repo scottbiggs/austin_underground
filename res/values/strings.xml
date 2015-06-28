@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- Symbols:
+
+		Ampersand		\u0026
+		long dash		\u2014
+
+	-->
+
+	<string name="app_name">Biggs\' Undergound Austin</string>
+<!--	<string name="hello_world">Hello world!</string> -->
+
+	<!-- Menu -->
+	<string name="menu_list_locations">List Locations</string>
+	<string name="menu_settings">Settings</string>
+	<string name="menu_about">About</string>
+
+	<!-- buttons -->
+	<string name="prev_butt">prev</string>
+	<string name="next_butt">next</string>
+
+	<!-- Error messages detecting sensors -->
+	<string name="no_mag_sensor_msg">No magnetic sensor found on this device.</string>
+	<string name="no_location_detector_msg">This device cannot find its location.</string>
+
+	<!-- Messages for the Status of the location detector -->
+	<string name="out_of_service"> out of service</string>
+	<string name="temp_unavailable"> temporarily unavailable</string>
+	<string name="available"> available</string>
+
+	<!-- Lables in UI -->
+	<string name="dest_label">Destination</string>
+	<string name="curr_label">Current Location</string>
+	<string name="dist_label">Distance Remaining</string>
+	<string name="head_label">Heading</string>
+	<string name="face_label">Facing</string>
+
+	<!-- Distance Messages -->
+	<string name="finding_location">Finding location...</string>
+
+	<string name="freezing">Freezing!</string>
+	<string name="very_cold">Very cold!</string>
+	<string name="cold">Cold</string>
+	<string name="cool">Cool</string>
+	<string name="luke_warm">Luke warm</string>
+	<string name="warm">Warm</string>
+	<string name="warmer">Warmer</string>
+	<string name="hot">Hot!</string>
+	<string name="very_hot">Very hot!</string>
+	<string name="burning">Burning up!</string>
+
+	<string name="on_target">You made it!</string>
+	<string name="yay">Yay!</string>
+
+	<!-- facing messages -->
+	<string name="turn_little_left">A little more left</string>
+	<string name="turn_little_right">A little more right</string>
+	<string name="turn_left">Turn to the left</string>
+	<string name="turn_right">Turn to the right</string>
+	<string name="turn_hard_left">Turn a lot to the left</string>
+	<string name="turn_hard_right">Turn a lot to the right</string>
+	<string name="turn_straight">That\'s it! Straight ahead!</string>
+
+	<!--		*	*	*	*	*	*	*	*	*	*	*	*	*	*	-->
+	<!-- The following Strings correspond to the appropriate arrays.	-->
+	<!--		*	*	*	*	*	*	*	*	*	*	*	*	*	*	-->
+
+	<!-- titles -->
+	<string name="title_my_mailbox">My Mailbox</string>
+	<string name="title_i_luv_video">Vulcan Video</string>
+	<string name="title_washington">George Washington</string>
+	<string name="title_littlefield">7th \u0026 1/2 floor</string>
+
+	<!-- hints -->
+	<string name="hint_my_mailbox">1. Close to Home</string>
+	<string name="hint_i_luv_video">2. Do You Like Movies\?</string>
+	<string name="hint_washington">3. Unbelievably Funny</string>
+	<string name="hint_littlefield">4. Bizarre Architecture</string>
+
+
+	<!-- address -->
+	<string name="address_my_mailbox">6313 Walnut Hills Dr., 78723</string>
+	<string name="address_i_luv_video">4803 Airport Blvd., 78751</string>
+	<string name="address_washington">200 W. Inner Campus Dr., 78705</string>
+	<string name="address_littlefield">604 N. Congress Ave., 78701</string>
+
+	<!-- subtitles -->
+	<string name="sub_my_mailbox">Gotta start somewhere</string>
+	<string name="sub_i_luv_video">Best Video Store in the world\?</string>
+	<string name="sub_washington">Oh my!</string>
+	<string name="sub_littlefield">What floor do you work on\?</string>
+
+	<!-- stories -->
+	<string name="story_my_mailbox">
+		This is the mailbox right in front of my house. It\'s a very
+		convenient test, isn\'t it\?
+		\n\n
+		This is the house I grew up in. Yup, I\'m a native Austinite,
+		born and raised. My parents moved out the nineties, and I moved
+		in several years later.
+		</string>
+	<string name="story_i_luv_video">
+		You\'re in the parking lot of the main reason why Netflix and
+		Redbox are only used by new-comers to Austin.  Step inside this
+		video store and look.  Go up the stairs, wander.  Find the rooms
+		full of foreign videos.  Notice the walls of movies organized by
+		director.
+		\n\n
+		Now talk to someone who works there. You\'ll discover that each
+		and every employee not only loves movies, but is extremely knowledgeable.
+		Famous film directors come here to learn!
+		\n\n
+		And if they don\'t have a movie that you want, fill out a listing
+		and they\'ll probably get it in a few weeks.
+		\n\n
+		A true Austin gem. There is a sister store at 2915 Guadalupe St.,
+		78705. As if that isn\'t enough, there is a competing chain, Vulcan
+		Video, which is almost as good (two locations: one in South Austin on
+		Elizabeth and North Austin on 53rd St.).
+		</string>
+	<string name="story_washington">
+		Look at the statue of George Washington (you need to look at it while facing
+		the Southwest), the father of our country.
+		It appears he\'s got a good handle on things, eh\?
+		\n\n
+		The story as was told to me:\n
+		\tLike many things at the University of Texas, no expense was spared
+		when constructing the South Mall (sometimes called the Six Pack).
+		They even hired famous sculptor Pompeo Coppini to make larger-than-life
+		likenesses of the famous (some are now infamous) men all about the area.
+		\n\n
+		But there was some dispute between the perfectionist Coppini and the
+		bigwigs at UT (some things never change!), causing Coppini to quit before
+		finishing the final statue: our first president of the United States of
+		America.
+		\n\n
+		But that patriotic group of do-gooders, the Daughters of the American
+		Revolution contacted Coppini and begged him to finish the statue. He
+		thought, \"You\'re all a bunch of sweet ol\' ladies, I\'ll do it for you.\"
+		\n\n
+		But just as he was nearing completion of the statue of George,
+		Coppini discovered that the \"sweet ol\' ladies\" planned to give the
+		statue directly to the University of Texas.
+		\n\n
+		Incensed, he altered the sculpture to the amazingly humorous thing
+		you are now looking at.
+		\n\n
+		Oh yeah, you don\'t believe me? Go ahead, read the inscription. I\'ll
+		wait.
+		\n\n
+		So there!
+		</string>
+
+	<string name="story_littlefield">
+		Look east, across the street. That\'s the Littlefield building at
+		106 E. 6th St. (the main entrance is on 6th). It\'s a nice old building
+		with more than a century of use to its credit.
+		\n\n
+		Say, have you seen the movie, \"Being John Malkovich\"\? Hmmm, if you
+		haven\'t, then this won\'t be very impressive.
+		\n\n
+		Now count the floors of the Littlefield building, starting with 1 as
+		the ground floor. Notice that gap there, between the seventh and eighth
+		floors\? Interesting....
+		\n\n
+		I used to work there, on the eighth floor. And I wondered why the stairs
+		between seven and eight had and extra zag. Late one night a security guard
+		(I was the only late-night guy there, so I got to know the security people
+		pretty well) showed me: the half-sized door in the stairwell I never used
+		that led to the SEVENTH AND A HALF FLOOR!
+		\n\n
+		Now take a few steps to your left, so you can see the north side of
+		the Littlefield building. See! Those are the tiny half-sized windows
+		of the seventh and a half floor. Wow! Who\'d\'ve thunk it\?
+		\n\n
+		It took me six months to find out why. Email me if you just
+		<b>gotta</b> know; it\'s a long story and not very funny.
+		\n\n
+		And to answer your other question, they just use the space for
+		storage\u2014mostly
+		desks and chairs.
+		</string>
+
+</resources>

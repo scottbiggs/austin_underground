@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	tools:context="com.sleepfuriously.biggstourofaustin.MainActivity" >
+
+	<item
+		android:id="@+id/list_locations"
+		android:title="@string/menu_list_locations"/>
+
+	<item
+		android:id="@+id/action_settings"
+		android:title="@string/menu_settings"/>
+
+	<item
+		android:id="@+id/about"
+		android:title="@string/menu_about"/>
+
+</menu>

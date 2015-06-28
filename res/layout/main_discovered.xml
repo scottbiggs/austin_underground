@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/discovered_background" >
+
+<RelativeLayout
+		android:id="@+id/top_rl"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentTop="true" >
+
+		<Button
+			android:id="@+id/prev_butt"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentLeft="true"
+			android:layout_alignParentTop="true"
+			android:text="@string/prev_butt" />
+
+		<Button
+			android:id="@+id/next_butt"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+			android:layout_alignParentTop="true"
+			android:text="@string/next_butt" />
+
+		<TextView
+			android:id="@+id/top_tv"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerVertical="true"
+			android:gravity="center_horizontal"
+			android:layout_toLeftOf="@id/next_butt"
+			android:layout_toRightOf="@id/prev_butt"
+			android:text="title"
+			android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	</RelativeLayout>
+
+	<RelativeLayout
+		android:id="@+id/discovered_sub_title_rl"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/top_rl"
+		>
+
+		<ImageView
+			android:id="@+id/small_compass_ring_iv"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+			android:src="@drawable/ic_compass_ring" />
+
+		<ImageView
+			android:id="@+id/small_compass_arrow_iv"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+			android:src="@drawable/ic_compass_arrow" />
+
+		<TextView
+			android:id="@+id/discovered_subtitle_tv"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentLeft="true"
+			android:layout_centerVertical="true"
+			android:layout_toLeftOf="@+id/small_compass_iv"
+			android:text="Medium Text"
+			android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	</RelativeLayout>
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_below="@id/discovered_sub_title_rl" >
+
+		<LinearLayout
+			android:id="@+id/scroller_ll"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical" >
+
+			<TextView
+				android:id="@+id/scroll_tv"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="..."
+				android:textSize="15sp" />
+
+		</LinearLayout>
+	</ScrollView>
+
+
+
+
+</RelativeLayout>

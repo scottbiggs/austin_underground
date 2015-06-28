@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" >
+
+	<TextView
+		android:id="@+id/location_title_tv"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:layout_centerHorizontal="true"
+		android:text="title"
+		android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	<TextView
+		android:id="@+id/location_lat_long_tv"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/location_title_tv"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="3dp"
+		android:text="latitude \u0026 longitude"
+		android:textSize="12sp" />
+
+	<TextView
+		android:id="@+id/location_address_tv"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/location_lat_long_tv"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="3dp"
+		android:text="address"
+		android:textSize="12sp" />
+
+	<TextView
+		android:id="@+id/location_sub_title_tv"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/location_address_tv"
+		android:layout_centerHorizontal="true"
+		android:layout_marginBottom="10dp"
+		android:layout_marginTop="5dp"
+		android:text="sub title"
+		android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	<LinearLayout
+		android:id="@+id/location_images_lv"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:layout_below="@id/location_sub_title_tv"
+		android:layout_alignParentRight="true"
+		>
+		<!-- Possible that all these will be created programmatically. -->
+		<ImageView
+			android:id="@+id/location_pic1_iv"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/ic_launcher"
+			android:layout_marginBottom="20dp"
+			/>
+
+		<ImageView
+			android:id="@+id/location_pic2_iv"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/location_pic1_iv"
+			android:src="@drawable/ic_launcher" />
+	</LinearLayout>
+
+	<TextView
+		android:id="@+id/location_story_tv"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:layout_below="@id/location_sub_title_tv"
+		android:layout_marginLeft="3dp"
+		android:layout_marginRight="3dp"
+		android:layout_toLeftOf="@id/location_images_lv"
+		android:text="Story goes here."
+		android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+
+</RelativeLayout>
