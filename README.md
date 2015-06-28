@@ -1,0 +1,1 @@
+So Scott told you some things about this cool city that few people know about.  And you want to know where they are, right?  This app will help.
